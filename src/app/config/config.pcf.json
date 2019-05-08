@@ -1,0 +1,16 @@
+{
+  "name": "my-app",
+  "grant_types": ["authorization_code"],
+  "scopes": ["openid"],
+  "authorities": ["openid"],
+  "redirect_uris": ["http://localhost:4200/home**"],
+  "auto_approved_scopes": ["openid"],
+  "identity_providers": ["uaa"],
+  "required_user_groups": ["openid"],
+  "resources": {"todo.read" : "Read to list", "todo.write": "Write to list"},
+  "access_token_lifetime": 300,
+  "refresh_token_lifetime": 86400,
+  "icon": "R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+  "launch_url": "http://google.com",
+  "show_on_home_page": false
+}
